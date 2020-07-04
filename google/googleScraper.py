@@ -36,7 +36,8 @@ for i in range(len(DORKS)):
                 API_KEY = API_KEYS[0]['API_KEY']
                 SEARCH_ENGINE_ID = API_KEYS[0]['SEARCH_ENGINE_ID']
                 del API_KEYS[0]
-                i -= 1
+                if(i > 0):
+                    i -= 1
     except Exception as e:
         pass
 
@@ -72,7 +73,8 @@ for i in range(len(specificDorks)):
                 API_KEY = API_KEYS[0]['API_KEY']
                 SEARCH_ENGINE_ID = API_KEYS[0]['SEARCH_ENGINE_ID']
                 del API_KEYS[0]
-                i -= 1
+                if(i > 0):
+                    i -= 1
     except Exception as e:
         pass
 
