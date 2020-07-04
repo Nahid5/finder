@@ -10,7 +10,7 @@ Scope the search engine to no site and set the dropdown to search the entire web
 
 Copy the .example.env to .env and place your google api keys there with 3 pipes as the delimieter. You can enter multiple keys using new line as the delimieter.
 
-API_KEY|SEARCH_ENGINE_ID
+API_KEY|||SEARCH_ENGINE_ID
 
 Ex.
 * asdasdsadsdasdsdasdasdasd|||1234567890989764345345:23d23d223d3d2
