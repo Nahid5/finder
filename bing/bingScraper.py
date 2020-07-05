@@ -35,6 +35,9 @@ def doDork(args):
     headers = {"Ocp-Apim-Subscription-Key": SUBSCRIPTION_KEY}
 
     for site in target_sites:
+        print("################################################## " + site + " ##################################################")
+        outputFile.write("################################################## " + site + " ##################################################")
+        outputFile.write("\n")
         for dork in dorksList:
             '''
             '''
@@ -78,6 +81,7 @@ def doDork(args):
             if(args.timeout):
                 time.sleep(1)
             outputFile.flush()
+        outputFile.write("\n\n")
     outputFile.close()
 
 
