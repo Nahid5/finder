@@ -19,7 +19,7 @@ f34q34f334f3i3dj3odi3jdo2|||1234567890989764345345:23d23d223d3d2
 ```
 
 Usage:
-* ./googleScraper.py -i <TARGET_SITE> -o OUTPUT
+* ./googleScraper.py -i [TARGET_SITE] -o OUTPUT
 * ./googleScraper.py -i example.com -o output.txt
 
 
@@ -34,7 +34,7 @@ The free F1 tier should work but you need to add the  -t flag to add in a timeou
 
 Change the *search_url* to your url.
 
-Your API keys and endpoint can be found by clicking Cognative Services -> <What you just created> -> Keys and Endpoint
+Your API keys and endpoint can be found by clicking Cognative Services -> [What you just created] -> Keys and Endpoint
 
 * Note the ENDPOINT from azure doesnt have the /search after the api version. So if you receive an error, add /search to the end of your endpoint
 
