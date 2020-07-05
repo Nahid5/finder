@@ -1,0 +1,37 @@
+filetype:backup
+filetype:bak
+filetype:bkf
+filetype:bkp
+filetype:cfg
+filetype:cnf
+filetype:conf
+filetype:csv
+filetype:dat
+filetype:doc
+filetype:env
+filetype:inf
+filetype:ini
+filetype:log
+filetype:mdb
+filetype:odt
+filetype:old
+filetype:ora
+filetype:pdf
+filetype:pps
+filetype:ppt
+filetype:ps
+filetype:psw
+filetype:rdp
+filetype:reg
+filetype:rtf
+filetype:sxw
+filetype:temp
+filetype:tmp
+filetype:txt
+filetype:xls
+filetype:xml
+filetype:pem
+filetype:sql
+id_rsa.pub
+intitle:"index of" "parent directory"
+intitle:login intitle:"Log on"
