@@ -18,3 +18,24 @@ Ex.
 
 Usage:
 * ./googlescraper.py [TARGET] | tee output.txt
+
+
+## Bing Scraper
+Scrape sites using bing.
+
+Get a bing api key from the azure portal:
+
+Cognative Services -> Add -> Bing Search
+
+The free F1 tier should work but you need to add the  -t flag to add in a timeout to keep inline with the 3 searches per second.
+
+Change the *search_url* to your url.
+
+Your API keys and endpoint can be found by clicking Cognative Services -> <What you just created> -> Keys and Endpoint
+
+* Note the ENDPOINT from azure doesnt have the /search after the api version. So if you receive an error, add /search to the end of your endpoint
+
+Place your api key in a file called .env in the bing directory.
+
+Usage:
+* ./bingScraper.py -i SITE_LIST.txt -o OUTPUT.txt
