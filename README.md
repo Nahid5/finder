@@ -48,3 +48,4 @@ List of sites are delimited with new line. Ex:
 google.com
 example.zom
 ```
+Bing search options: https://help.bing.microsoft.com/#apex/18/en-US/10001/-1
